@@ -1,26 +1,31 @@
 <a name="readme-top">
-
+<a href="https://wakatime.com/badge/user/139d95b6-bd52-4513-ab30-5882ab216ca9/project/0bb3a450-0417-4db9-9d0a-c7ccdd334419"><img src="https://wakatime.com/badge/user/139d95b6-bd52-4513-ab30-5882ab216ca9/project/0bb3a450-0417-4db9-9d0a-c7ccdd334419.svg" alt="wakatime"></a>
 <br/>
 
 <br />
 <div align="center">
   <a href="https://github.com/zyx-0314/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    <img src="assets/img/KLASIKO PFP.png" alt="Nyebe" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">WD-Template-Corpuz-SW</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  WHAT IS KLASIKO?
+Klasiko is a multimedia publishing company dedicated to creating products that inspire exploration, discovery, and learning, all while providing an enjoyable experience. In addition to its own creations, Klasiko also sources and resells top-selling books that offer value to readers.
+
+As the modern library for a new generation, Klasiko bridges the gap between traditional literature and contemporary society. In today's world, where almost everything revolves around social media and digital platforms, Klasiko aims to make books accessible both online and offline, ensuring they remain a vital part of modern culture.
+
+We create. We publish. We serve.. (Optional)
 </div>
 
 <br />
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+![](https://visit-counter.vercel.app/counter.png?page=MarcCorpuz/WD-Template-Corpuz-SW)
 
 ---
 
