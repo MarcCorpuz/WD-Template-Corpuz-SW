@@ -18,7 +18,7 @@ Klasiko is a multimedia publishing company dedicated to creating products that i
 
 As the modern library for a new generation, Klasiko bridges the gap between traditional literature and contemporary society. In today's world, where almost everything revolves around social media and digital platforms, Klasiko aims to make books accessible both online and offline, ensuring they remain a vital part of modern culture.
 
-We create. We publish. We serve.. (Optional)
+We create. We publish. We serve.. 
 </div>
 
 <br />
