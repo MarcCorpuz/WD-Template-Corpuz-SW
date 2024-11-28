@@ -15,6 +15,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@600..900&display=swap" rel="stylesheet">
     <!--font links-->
     <link href="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <head>
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    </head>    
 </head>
 <body>
   <div class="all-content">
@@ -24,7 +27,7 @@
     <div class="container-fluid">
       <a class="navbar-brand" href="#" id="logo"><img src="./assets/img/KLASIKO.png" alt=""></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span><i  class="fa-solid fa-bars" style="color: white; font-size: 23;"></i></span>
+        <span><i class="fa-solid fa-bars" style="color: white; font-size: 23;"></i></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -40,8 +43,6 @@
           <li class="nav-item">
             <a class="nav-link active" href="#contact">Contact</a>
           </li>
-          
-          
         </ul>
         <form class="d-flex">
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -50,20 +51,22 @@
       </div>
     </div>
   </nav>
+  
+  
 
   <!--navbar end-->
 
 
 
  <!-- home secttion start -->
-  <section id="home">
-    <div class="content">
-      <h3>KNOWLEDGE AND ENJOYMENT <br> AT YOUR FINGERTIPS</h3>
-      <P>Discover our best-selling books, designed to bring joy, spark curiosity, <br> and transform the way you see the world. <br> Only at Klasiko.</P>
-      <br>
-      <button id="btn">Shop now</button>
-    </div>
-  </section>
+ <section id="home">
+  <div class="content">
+    <h3>KNOWLEDGE AND ENJOYMENT <br> AT YOUR FINGERTIPS</h3>
+    <p>Discover our best-selling books, designed to bring joy, spark curiosity, <br> and transform the way you see the world. <br> Only at Klasiko.</p>
+    <button id="btn">Shop Now</button>
+  </div>
+</section>
+
   <!-- home section end -->
 
 
@@ -76,26 +79,25 @@
       <div class="row">
         <div class="col-md-6">
           <div class="card">
-            <img src="assets/img/KLASIKO PFP.png" ALT="">
+            <img src="assets/img/KLASIKO PFP.png" alt="" class="about-img">
           </div>
         </div>
-
+  
         <div class="col-md-6">
-          <h3> WHAT IS KLASIKO?</h3>
-          <p>Klasiko is a multimedia publishing company dedicated to creating products that inspire exploration, discovery, and learning, all while providing an enjoyable experience. In addition to its own creations, Klasiko also sources and resells top-selling books that offer value to readers. 
-
-            As the modern library for a new generation, Klasiko bridges the gap between traditional literature and contemporary society. In today's world, where almost everything revolves around social media and digital platforms, Klasiko aims to make books accessible both online and offline, ensuring they remain a vital part of modern culture.<br>
+          <h3>WHAT IS KLASIKO?</h3>
+          <p>
+            Klasiko is a multimedia publishing company dedicated to creating products that inspire exploration, discovery, and learning, all while providing an enjoyable experience. In addition to its own creations, Klasiko also sources and resells top-selling books that offer value to readers.
           </p>
-          <p2><br> We create. We publish. We serve.</p2>
-          <br>
-          <br>
-          <br>
-          <button id="about-btn">Learn More.</button>
+          <p>
+            As the modern library for a new generation, Klasiko bridges the gap between traditional literature and contemporary society. In today's world, where almost everything revolves around social media and digital platforms, Klasiko aims to make books accessible both online and offline, ensuring they remain a vital part of modern culture.
+          </p>
+          <p><strong>We create. We publish. We serve.</strong></p>
+          <button id="about-btn">Learn More</button>
         </div>
       </div>
     </div>
-
   </section>
+  
 
   <!-- about section end -->
 
@@ -136,16 +138,190 @@
 
 
 
+ <!-- menu start -->
+ <section id="products">
+  <div class="container">
+    <div class="heading3">Our Products</div>
+    <div class="product-grid">
+      <!-- Top row -->
+      <div class="card">
+        <img src="./assets/img/BOOK 1.png" alt="">
+        <div class="card-body">
+          <div class="star text-center">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <h3>Thinking Fast and Slow</h3>
+          <p>PHP 1,095 <strike>PHP 1,500</strike> <span class="fa-solid fa-cart-shopping"></span></p>
+        </div>
+      </div>
 
+      <div class="card">
+        <img src="./assets/img/BOOK 2.png" alt="">
+        <div class="card-body">
+          <div class="star text-center">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <h3>48 Laws of Power</h3>
+          <p>PHP 641 <strike>PHP 720</strike> <span class="fa-solid fa-cart-shopping"></span></p>
+        </div>
+      </div>
 
+      <div class="card">
+        <img src="./assets/img/BOOK 3.png" alt="">
+        <div class="card-body">
+          <div class="star text-center">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <h3>The Daily Stoic</h3>
+          <p>PHP 727 <strike>PHP 1,000</strike> <span class="fa-solid fa-cart-shopping"></span></p>
+        </div>
+      </div>
 
+      <!-- Bottom row -->
+      <div class="card">
+        <img src="./assets/img/BOOK 4.png" alt="">
+        <div class="card-body">
+          <div class="star text-center">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <h3>The Animator's Survival Kit</h3>
+          <p>PHP 2,250 <strike>PHP 2,599</strike> <span class="fa-solid fa-cart-shopping"></span></p>
+        </div>
+      </div>
 
+      <div class="card">
+        <img src="./assets/img/BOOK 5.png" alt="">
+        <div class="card-body">
+          <div class="star text-center">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <h3>12 Rules of Life</h3>
+          <p>PHP 970 <strike>PHP 1,200</strike> <span class="fa-solid fa-cart-shopping"></span></p>
+        </div>
+      </div>
 
-
-
-
-
+      <div class="card">
+        <img src="./assets/img/BOOK 6.png" alt="">
+        <div class="card-body">
+          <div class="star text-center">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <h3>The Power of Habit</h3>
+          <p>PHP 845 <strike>PHP 1,000</strike> <span class="fa-solid fa-cart-shopping"></span></p>
+        </div>
+      </div>
+    </div>
   </div>
+</section>
+
+
+
+ 
+ <!-- menu end -->
+
+ <!-- gallery start -->
+ <div class="heading3">KLASIKO GALLERY</div>
+ <div id="gallery">
+   <div class="gallery-item">
+     <img src="assets/img/L1.jpg" alt="Image 1">
+     <div class="caption">KLASIKO UNO</div>
+   </div>
+   <div class="gallery-item">
+     <img src="assets/img/L2.jpg" alt="Image 2">
+     <div class="caption">KLASIKO DOS</div>
+   </div>
+   <div class="gallery-item">
+     <img src="assets/img/L3.jpg" alt="Image 3">
+     <div class="caption">KLASIKO TRES</div>
+   </div>
+   <div class="gallery-item">
+     <img src="assets/img/L4.jpg" alt="Image 4">
+     <div class="caption">KLASIKO KWATRO</div>
+   </div>
+   <div class="gallery-item">
+     <img src="assets/img/L5.jpg" alt="Image 5">
+     <div class="caption">KLASIKO CINCO</div>
+   </div>
+   <div class="gallery-item">
+     <img src="assets/img/L6.jpg" alt="Image 6">
+     <div class="caption">KLASIKO SAIS</div>
+   </div>
+ </div>
+ <!-- gallery end -->
+
+ <!-- contact start -->
+ <title>Contact Klasiko</title>
+ <link rel="stylesheet" href="styles.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+ <section id="contact">
+   <div class="container">
+     <div class="row">
+       <div class="col-md-7">
+         <div class="heading6">Contact <span>Klasiko</span></div>
+         <p>
+           For inquiries, kindly contact us for further information and transactions.
+           <br> Thank you for visiting Klasiko!
+         </p>
+         <form>
+           <input type="text" class="form-control" placeholder="Name">
+           <input type="email" class="form-control" placeholder="Email">
+           <input type="number" class="form-control" placeholder="Number">
+           <button id="contact-btn">Message Us</button>
+         </form>
+       </div>
+       <div class="col-md-5" id="col">
+         <h1>Info</h1>
+         <p><i class="fa-regular fa-envelope"></i> example@gmail.com</p>
+         <p><i class="fa-solid fa-phone"></i> +63999999999</p>
+         <p><i class="fa-solid fa-building-columns"></i> Zurich, Switzerland</p>
+       </div>
+     </div>
+   </div>
+ </section>
+ <!-- contact end -->
+
+
+
+
+
+ <!-- footer design -->
+ <footer class="footer">
+  <div class="footer-text">
+    <p>Copyright &copy; 2024 by KLASIKO | All Rights Reserved.</p>
+  </div>
+
+  <div class="footer-icontop">
+    <a href="#"><i class='bx bx-chevron-up'></i></a>
+  </div>
+
+ </footer>
+  
 
 
 
