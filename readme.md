@@ -65,15 +65,15 @@ We create. We publish. We serve..
 Description of the project in details.
 
 Guiding Question:
-- What is the project
-- Whats the purpose
+- What is the project? - The project is designed  for publishing
+- Whats the purpose? - The primary purpose of this project is to make the publishing industry accessible
 - What are key components
 - What technology used and how it is used
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
+- Single Page Website
 - Parallax transition
 - Transactional
 
@@ -122,4 +122,4 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Sample Title | Sample purpose would be here like this and this is the example of what it is. | https://getbootstrap.com/docs/5.0/getting-started/introduction/ |
