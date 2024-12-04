@@ -25,16 +25,24 @@
 
   <nav class="navbar navbar-expand-lg" id="navbar">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#" id="logo"><img src="./assets/img/KLASIKO.png" alt=""></a>
+      <a class="navbar-brand" href="#" id="logo"><img src="../../assets/img/KLASIKO.png" alt=""></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span><i class="fa-solid fa-bars" style="color: white; font-size: 23;"></i></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item"><a class="nav-link active" href="./index.html">Home</a></li>
-            <li class="nav-item"><a class="nav-link active" href="./pages/about/about.html">About</a></li>
-            <li class="nav-item"><a class="nav-link active" href="./pages/products/products.html">Products</a></li>
-            <li class="nav-item"><a class="nav-link active" href="./pages/contacts/contact.html">Contact</a></li>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../about/about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../products/products.html">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../contacts/contact.html">Contact</a>
+              </li>
         </ul>
         <form class="d-flex">
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -44,22 +52,39 @@
     </div>
   </nav>
   
-  
+  <!-- contact start -->
+ <title>Contact Klasiko</title>
+ <link rel="stylesheet" href="styles.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+ <section id="contact">
+   <div class="container">
+     <div class="row">
+       <div class="col-md-7">
+         <div class="heading6">Contact <span>Klasiko</span></div>
+         <p>
+           For inquiries, kindly contact us for further information and transactions.
+           <br> Thank you for visiting Klasiko! 
+         </p>
+         <form>
+           <input type="text" class="form-control" placeholder="Name">
+           <input type="email" class="form-control" placeholder="Email">
+           <input type="number" class="form-control" placeholder="Number">
+           <button id="contact-btn">Message Us</button>
+         </form>
+       </div>
+       <div class="col-md-5" id="col">
+         <h1>Info</h1>
+         <p><i class="fa-regular fa-envelope"></i> example@gmail.com</p>
+         <p><i class="fa-solid fa-phone"></i> +63999999999</p>
+         <p><i class="fa-solid fa-building-columns"></i> Location: Zurich, Switzerland</p>
+       </div>
+     </div>
+   </div>
+ </section>
+ <!-- contact end -->
 
-  <!--navbar end-->
-
-
-
- <!-- home secttion start -->
- <section id="home">
-  <div class="content">
-    <h3>KNOWLEDGE AND ENJOYMENT <br> AT YOUR FINGERTIPS</h3>
-    <p>Discover our best-selling books, designed to bring joy, spark curiosity, <br> and transform the way you see the world. <br> Only at Klasiko.</p>
-    <button id="btn">Shop Now</button>
-  </div>
-</section>
-
-  <!-- home section end -->
 
 
 
@@ -75,15 +100,3 @@
   </div>
 
  </footer>
-  
-
-
-
-
-
-
-
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-</body>
-</html>
